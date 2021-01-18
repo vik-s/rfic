@@ -1,4 +1,4 @@
-# The Site Settings
+........# The Site Settings
 # v2.0
 # https://github.com/cotes2020/jekyll-theme-chirpy
 # © 2017-2019 Cotes Chung
@@ -7,34 +7,35 @@
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: rfic.io                          # the main title
+title: Chirpy                          # the main title
 
-tagline: A blog on RF engineering.  # it will display as the sub-title
+tagline: A text-focused Jekyll theme.  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A collection of fundamental concepts, tutorials,
-  analysis methods and programming ideas for RF enginnering.
+  A minimal, portfolio, sidebar,
+  bootstrap Jekyll theme with responsive web design
+  and focuses on text presentation.
 
 # fill in the base hostname & protocol for your site, e.g., 'https://username.github.io'
-url: 'https://vik-s.github.io'
+url: ''
 
-author: Vikram Sekar                  # change to your full name
+author: your_full_name                  # change to your full name
 
-avatar: /assets/img/sample/logo.png   # support internet resources
+avatar: /assets/img/sample/avatar.jpg   # support internet resources
 
 github:
-  username: vik-s             # change to your github username
+  username: github_username             # change to your github username
 
 twitter:
-  username: vikramskr            # change to your twitter username
+  username: twitter_username            # change to your twitter username
 
 social:
-  name: Vikram Sekar                  # it will shows as the copyright owner in Footer
-  email: vikram.mail@gmail.com             # change to your email address
+  name: your_full_name                  # it will shows as the copyright owner in Footer
+  email: example@doamin.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/vikramskr      # change to your twitter homepage
-    - https://github.com/vik-s     # change to your github homepage
+    - https://twitter.com/username      # change to your twitter homepage
+    - https://github.com/username       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -48,10 +49,10 @@ google_site_verification: google_meta_tag_verification # change to your verifica
 baseurl: ''
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: America/Los_Angeles
+timezone: Asia/Shanghai
 
 google_analytics:
-  id: 'G-DK37RLC614'          # Fill with your Google Analytics ID
+  id: ''          # Fill with your Google Analytics ID
   pv:
     # The Google Analytics pageviews switch.
     # DO NOT enable it unless you know how to deploy the Google Analytics superProxy.
@@ -63,7 +64,7 @@ google_analytics:
 
 disqus:
   comments: false  # boolean type, the global switch for posts comments.
-  shortname: 'rficio'    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+  shortname: ''    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 
 # Prefer color scheme setting.
@@ -78,7 +79,7 @@ disqus:
 #
 #     dark   - Use the dark color scheme
 #
-theme_mode:   light
+theme_mode:   # <light|dark>
 
 # boolean type, the global switch for ToC in posts.
 toc: true
@@ -195,6 +196,3 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
-
-plugins:
-  - jemoji
