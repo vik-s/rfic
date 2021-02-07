@@ -13,6 +13,7 @@ For your reference, here is a list of articles in this series.
 2. [The Network() Class]({% post_url 2021-01-12-The-Network-Class %}) (this article)
 3. [Manipulating Networks]({% post_url 2021-01-19-Manipulating-Networks %})
 4. [Frequency Slicing]({% post_url 2021-01-19-Frequency-Slicing %})
+5. [Plotting]({% post_url 2021-02-07-Plotting %})
 
 For the uninitiated, a [class](https://en.wikipedia.org/wiki/Class_(computer_programming)) is a template which contains pre-defined data structures, initial values and functions or methods defining a sequence of programming operations. In scikit-rf, the `Network()` class is a collection of attributes and functions available for handling RF network data. To perform data analysis and manipulations on networks, we must first create a network object, which is an instance of the `Network()` class.
 

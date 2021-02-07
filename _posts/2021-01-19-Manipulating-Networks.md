@@ -13,6 +13,7 @@ For your reference, here is a list of articles in this series.
 2. [The Network() Class]({% post_url 2021-01-12-The-Network-Class %})
 3. [Manipulating Networks]({% post_url 2021-01-19-Manipulating-Networks %}) (this article)
 4. [Frequency Slicing]({% post_url 2021-01-19-Frequency-Slicing %})
+5. [Plotting]({% post_url 2021-02-07-Plotting %})
 
 # Manipulating Network Objects
 

@@ -15,6 +15,7 @@ For your reference, here is a list of articles in this series.
 2. [The Network() Class]({% post_url 2021-01-12-The-Network-Class %})
 3. [Manipulating Networks]({% post_url 2021-01-19-Manipulating-Networks %})
 4. [Frequency Slicing]({% post_url 2021-01-19-Frequency-Slicing %})
+5. [Plotting]({% post_url 2021-02-07-Plotting %})
 
 We won't get into the basics of python here, since there are many wonderful books, youtube channels and blogs that teach much more than we can cover in this blog. But don't worry, if you're just starting out with python, you will still be able to follow along. The python package we will deal with in this series is [Scikit-RF](https://scikit-rf-web.readthedocs.io/), which is an open source project hosted on [Github](https://github.com/scikit-rf/scikit-rf) and is the most complete python package available today for RF analysis. So lets get into it, and setup the necessary software to start this journey!
 

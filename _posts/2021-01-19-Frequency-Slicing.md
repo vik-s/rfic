@@ -13,7 +13,7 @@ For your reference, here is a list of articles in this series.
 2. [The Network() Class]({% post_url 2021-01-12-The-Network-Class %})
 3. [Manipulating Networks]({% post_url 2021-01-19-Manipulating-Networks %})
 4. [Frequency Slicing]({% post_url 2021-01-19-Frequency-Slicing %}) (this article)
-
+5. [Plotting]({% post_url 2021-02-07-Plotting %})
 
 Here is a use case of why you might why you might want to do something like this. When making network analyzer measurements, it is common practice to take a wider range of frequencies than necessary during measurement. Doing this avoids having to recalibrate the setup, and redo the measurement if wider frequency data is required in the future. During the analysis phase, you might only want to focus on a narrow range of frequencies, or even a spot frequency, that is relevant to the circuit operation. This is where the need to carve out a subset of frequencies from a dataset arises. To cover this and other scenarios, let's dive into frequency slicing of networks!
 
